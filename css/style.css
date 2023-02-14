@@ -1,4 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: pink;
+}
+
+header {
+    background-color: #f8f9fa;
+    height: 70px;
+    padding: 10px 1px;
 }
