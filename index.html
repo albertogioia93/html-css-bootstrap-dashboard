@@ -28,11 +28,34 @@
         <nav class="container-fluid h-100 d-inline-block">
             
             <div class="row h-100 align-items-center">
-                <div class="col-2 h-100">
-                    <img class="logo-phone" src="img/mobile-logo.png" alt="">
+                <div class="col-auto col-lg-1 h-100">
+                    <img class="logo-phone d-lg-none" src="img/mobile-logo.png" alt="">
+                    <img class="logo-intero d-none d-lg-block" src="img/logo.svg" alt="">
                 </div>
-                <div class="col">BARRA DI RICERCA</div>
-                <div class="col">I</div>
+                <div class="col-9 col-lg-9">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-auto col-lg-2 ms-auto">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-10 d-none d-lg-block">
+                            <ul class="d-flex list-unstyled">
+                                <li><i class="fa-solid fa-list"></i></li>
+                                <li><i class="fa-solid fa-question"></i></li>
+                                <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                            </ul>
+                        </div>
+                           
+                        <div class="col-2">
+                            <i class="fa-solid fa-bell colore-campana"></i>   
+                        </div>
+
+                    </div>
+                </div>
             </div>
             
 

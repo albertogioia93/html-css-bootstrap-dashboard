@@ -8,6 +8,30 @@ header {
     padding: 10px 1px;
 }
 
+nav {
+    background-color: white;
+}
+
 .logo-phone {
     height: 100%;
+}
+
+.logo-intero {
+    height: 100%;
+    width: 100%;
+}
+
+.form-control {
+    background-color: #e5e5e5;
+}
+
+.colore-campana {
+    color: #ff8f00;
+}
+
+ul {
+    color: #5b5858;
+    gap: 24px;
+    margin-bottom: 0;
+    justify-content: end;
 }
