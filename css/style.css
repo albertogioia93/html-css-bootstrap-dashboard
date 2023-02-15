@@ -56,7 +56,7 @@ main
 
 aside {
     background-color: grey;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 aside ul li {
