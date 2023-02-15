@@ -49,7 +49,7 @@ main
 */
 
 .big-container {
-    background-color: pink;
+    background-color: #f8f9fa;
     height: calc(100vh - 70px);
     display: flex;
 }
@@ -71,4 +71,9 @@ aside ul li {
 
 .badge-color {
     background-color: #165bba;
+}
+
+.yellow-badge {
+    color: white;
+    background-color: #ffc107;
 }
